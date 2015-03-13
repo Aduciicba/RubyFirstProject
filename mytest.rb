@@ -9,7 +9,6 @@ rescue SystemCallError
   raise "Config file #{file_name} not found"
 end
 
-
 def GetJSON(file_str)
   json = JSON.parse(file_str)
 rescue => err
